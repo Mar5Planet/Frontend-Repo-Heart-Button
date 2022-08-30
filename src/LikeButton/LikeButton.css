@@ -1,0 +1,25 @@
+.like-button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.heart-button {
+  background-color: black;
+  display: flex;
+  width: 4.5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(144, 143, 143);
+}
+
+.heart-button:hover {
+  cursor: pointer;
+}
+
+.heart-button:hover :is(img,p) {
+  opacity: .6;
+  transition: all 0.4s;
+}
